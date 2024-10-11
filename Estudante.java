@@ -17,6 +17,12 @@ public class Estudante {
     public double getMedia() {
         double media = (n1 + n2 + n3) / 3;
 
+        if (media >= 7) {
+            System.out.println("Aprovado(a)");
+        } else {
+            System.out.println("Reprovado(a)");
+        }
+
         return media;
     }
 
@@ -40,7 +46,7 @@ public class Estudante {
 
     @Override
     public String toString() {
-        return String.format("Nome: %s \nMatricula: %d", nome, matricula);
+        return String.format("\nNome: %s \nMatricula: %d", nome, matricula);
         // \nNota1: %.2f \nNota2: %.2f \nNota3: %.2f
     }
 }
