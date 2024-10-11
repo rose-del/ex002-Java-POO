@@ -12,14 +12,14 @@ Crie uma classe `Estudante` com atributos para `nome`, `matrícula` e `três not
 - Crie um caso de teste para testar o método `double getMedia()`
 - Crie um caso de teste para testar os métodos `void setNotas(double n1, double n2, double n3)`, `double getNota1()`, `double getNota2()` e `double getNota3()`
 
-### Estrutura do Repositório
+## Estrutura do Repositório
 
 - `Estudante.java`: Define a classe `Estudante` com seus atributos e métodos.
 - `LICENSE`: Arquivo de licença (MIT License).
 - `Main.java`: Contém a classe principal que executa o programa.
 - `README.md`: Este arquivo com informações sobre o projeto.
 
-### Como Executar
+## Como Executar
 
 Para executar o programa, utilize os seguintes comandos no terminal:
 
